@@ -249,8 +249,9 @@ Includes:
 
 ### 🏷️ Tags
 
-`ai-agents` `multi-agent-system` `disaster-response` `google-adk`
-`gemini-api` `context-engineering` `kaggle-capstone`
+`ai-agents` , `multi-agent-system` , `llm-agents` , `disaster-response` , `early-warning-system` , `emergency-management` , `google-adk` , <br> 
+`gemini-api` , `context-engineering` , `agent-evaluation` , `observability` , `human-in-the-loop` , `risk-analysis` , `memory-engineering` ,<br>
+`real-time-systems` , `kaggle-capstone`
 
 ---
 
