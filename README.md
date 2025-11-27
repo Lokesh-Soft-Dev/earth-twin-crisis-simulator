@@ -249,14 +249,16 @@ Includes:
 
 ### 🏷️ Tags
 
-`ai-agents` `multi-agent-system` `disaster-response` `google-adk` ,
+`ai-agents` `multi-agent-system` `disaster-response` `google-adk`
 `gemini-api` `context-engineering` `kaggle-capstone`
 
 ---
 
 ### ⭐ Author
 ## LOKESH K
+
 **Built with ❤️ using Google’s Agent Development Kit(ADK) concepts and Kaggle’s 5-Day Intensive Framework.**
+
 
 
 
