@@ -249,8 +249,8 @@ Includes:
 
 ### 🏷️ Tags
 
-`ai-agents` , `multi-agent-system` , `disaster-response` , `google-adk` ,
-`gemini-api` , `context-engineering` , `kaggle-capstone`
+`ai-agents` `multi-agent-system` `disaster-response` `google-adk` ,
+`gemini-api` `context-engineering` `kaggle-capstone`
 
 ---
 
