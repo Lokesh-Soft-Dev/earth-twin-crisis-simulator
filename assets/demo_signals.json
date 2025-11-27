@@ -1,0 +1,6 @@
+[
+  {"id": "sig-1001", "type": "earthquake", "location": "Chile", "magnitude": 6.9, "source_ts": 1700000000},
+  {"id": "sig-1002", "type": "flood", "location": "Bangladesh", "magnitude": 3.5, "source_ts": 1700000500},
+  {"id": "sig-1003", "type": "heatwave", "location": "Spain", "magnitude": 2.2, "source_ts": 1700001000},
+  {"id": "sig-1004", "type": "wildfire", "location": "California, USA", "magnitude": 4.7, "source_ts": 1700001500}
+]

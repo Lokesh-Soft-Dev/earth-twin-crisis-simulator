@@ -1,0 +1,337 @@
+{
+  "logs": [
+    {
+      "event": "collect_signals",
+      "count": 4,
+      "_ts": "2025-11-26T06:21:11.153878Z"
+    },
+    {
+      "event": "score_signals",
+      "top": [
+        {
+          "id": "sig-1001",
+          "severity": 14.872
+        },
+        {
+          "id": "sig-1004",
+          "severity": 13.377
+        },
+        {
+          "id": "sig-1002",
+          "severity": 9.72
+        },
+        {
+          "id": "sig-1003",
+          "severity": 5.368
+        }
+      ],
+      "_ts": "2025-11-26T06:21:11.163925Z"
+    },
+    {
+      "event": "plan_responses",
+      "plan_count": 3,
+      "_ts": "2025-11-26T06:21:11.176247Z"
+    },
+    {
+      "event": "human_approval",
+      "result": {
+        "approved": true,
+        "review_notes": "Auto-approved in demo mode.",
+        "review_ts": 1764138071
+      },
+      "_ts": "2025-11-26T06:21:11.692986Z"
+    },
+    {
+      "event": "persist_memory",
+      "signals_count": 4,
+      "_ts": "2025-11-26T06:21:11.711175Z"
+    },
+    {
+      "event": "evaluate_plan",
+      "result": {
+        "score": 63.28,
+        "verdict": "High-quality plan",
+        "notes": "Auto-eval heuristics only. Replace with LLM-as-judge for production."
+      },
+      "_ts": "2025-11-26T06:21:11.722729Z"
+    },
+    {
+      "event": "call_tool",
+      "tool": "signal_agent.get_signals",
+      "_ts": "2025-11-26T06:31:35.036460Z"
+    },
+    {
+      "event": "call_tool",
+      "tool": "risk_agent.score_signals",
+      "_ts": "2025-11-26T06:31:35.054939Z"
+    },
+    {
+      "event": "call_tool",
+      "tool": "planner_agent.plan_responses",
+      "_ts": "2025-11-26T06:31:35.073177Z"
+    },
+    {
+      "event": "call_tool",
+      "tool": "human_approval_agent.request_approval",
+      "_ts": "2025-11-26T06:31:35.098124Z"
+    },
+    {
+      "event": "persist_memory",
+      "signals_count": 4,
+      "_ts": "2025-11-26T06:31:35.617931Z"
+    },
+    {
+      "event": "call_tool",
+      "tool": "evaluation_agent.evaluate_plan",
+      "_ts": "2025-11-26T06:31:35.630361Z"
+    },
+    {
+      "event": "finished",
+      "summary": {
+        "plan_count": 3,
+        "eval_score": 63.28
+      },
+      "_ts": "2025-11-26T06:31:35.643683Z"
+    },
+    {
+      "event": "call_tool",
+      "tool": "signal_agent.get_signals",
+      "_ts": "2025-11-26T17:38:36.903689Z"
+    },
+    {
+      "event": "call_tool",
+      "tool": "risk_agent.score_signals",
+      "_ts": "2025-11-26T17:38:36.925957Z"
+    },
+    {
+      "event": "call_tool",
+      "tool": "planner_agent.plan_responses",
+      "_ts": "2025-11-26T17:38:36.951488Z"
+    },
+    {
+      "event": "call_tool",
+      "tool": "human_approval_agent.request_approval",
+      "_ts": "2025-11-26T17:38:36.971651Z"
+    },
+    {
+      "event": "persist_memory",
+      "signals_count": 4,
+      "_ts": "2025-11-26T17:38:37.530376Z"
+    },
+    {
+      "event": "call_tool",
+      "tool": "evaluation_agent.evaluate_plan",
+      "_ts": "2025-11-26T17:38:37.543617Z"
+    },
+    {
+      "event": "finished",
+      "summary": {
+        "plan_count": 3,
+        "eval_score": 63.28
+      },
+      "_ts": "2025-11-26T17:38:37.556844Z"
+    },
+    {
+      "event": "call_tool",
+      "tool": "signal_agent.get_signals",
+      "_ts": "2025-11-26T18:04:51.552522Z"
+    },
+    {
+      "event": "call_tool",
+      "tool": "risk_agent.score_signals",
+      "_ts": "2025-11-26T18:04:51.575361Z"
+    },
+    {
+      "event": "call_tool",
+      "tool": "planner_agent.plan_responses",
+      "_ts": "2025-11-26T18:04:51.596354Z"
+    },
+    {
+      "event": "call_tool",
+      "tool": "human_approval_agent.request_approval",
+      "_ts": "2025-11-26T18:04:51.633113Z"
+    },
+    {
+      "event": "persist_memory",
+      "signals_count": 4,
+      "_ts": "2025-11-26T18:04:52.187116Z"
+    },
+    {
+      "event": "call_tool",
+      "tool": "evaluation_agent.evaluate_plan",
+      "_ts": "2025-11-26T18:04:52.201702Z"
+    },
+    {
+      "event": "finished",
+      "summary": {
+        "plan_count": 3,
+        "eval_score": 63.28
+      },
+      "_ts": "2025-11-26T18:04:52.216078Z"
+    },
+    {
+      "event": "call_tool",
+      "tool": "signal_agent.get_signals",
+      "_ts": "2025-11-26T18:04:52.620312Z"
+    },
+    {
+      "event": "augment_with_real_tools",
+      "tool": "real_data_tools.earthquake.fetch_earthquakes",
+      "region": "Chile",
+      "_ts": "2025-11-26T18:04:52.631424Z"
+    },
+    {
+      "event": "call_tool",
+      "tool": "risk_agent.score_signals",
+      "_ts": "2025-11-26T18:04:52.643318Z"
+    },
+    {
+      "event": "call_tool",
+      "tool": "planner_agent.plan_responses",
+      "_ts": "2025-11-26T18:04:52.654218Z"
+    },
+    {
+      "event": "call_tool",
+      "tool": "human_approval_agent.request_approval",
+      "_ts": "2025-11-26T18:04:52.665363Z"
+    },
+    {
+      "event": "persist_memory",
+      "signals_count": 9,
+      "_ts": "2025-11-26T18:04:53.216001Z"
+    },
+    {
+      "event": "call_tool",
+      "tool": "evaluation_agent.evaluate_plan",
+      "_ts": "2025-11-26T18:04:53.229310Z"
+    },
+    {
+      "event": "finished",
+      "summary": {
+        "plan_count": 3,
+        "eval_score": 77.83
+      },
+      "_ts": "2025-11-26T18:04:53.244908Z"
+    },
+    {
+      "event": "call_tool",
+      "tool": "signal_agent.get_signals",
+      "_ts": "2025-11-26T22:30:00.616958Z"
+    },
+    {
+      "event": "call_tool",
+      "tool": "risk_agent.score_signals",
+      "_ts": "2025-11-26T22:30:00.631877Z"
+    },
+    {
+      "event": "call_tool",
+      "tool": "planner_agent.plan_responses",
+      "_ts": "2025-11-26T22:30:00.644823Z"
+    },
+    {
+      "event": "call_tool",
+      "tool": "human_approval_agent.request_approval",
+      "_ts": "2025-11-26T22:30:00.663869Z"
+    },
+    {
+      "event": "persist_memory",
+      "signals_count": 4,
+      "_ts": "2025-11-26T22:30:01.194162Z"
+    },
+    {
+      "event": "call_tool",
+      "tool": "evaluation_agent.evaluate_plan",
+      "_ts": "2025-11-26T22:30:01.209032Z"
+    },
+    {
+      "event": "finished",
+      "summary": {
+        "plan_count": 3,
+        "eval_score": 63.28
+      },
+      "_ts": "2025-11-26T22:30:01.220522Z"
+    },
+    {
+      "event": "call_tool",
+      "tool": "signal_agent.get_signals",
+      "_ts": "2025-11-26T22:30:06.759521Z"
+    },
+    {
+      "event": "augment_with_real_tools",
+      "tool": "real_data_tools.earthquake.fetch_earthquakes",
+      "region": "Chile",
+      "_ts": "2025-11-26T22:30:06.818597Z"
+    },
+    {
+      "event": "call_tool",
+      "tool": "risk_agent.score_signals",
+      "_ts": "2025-11-26T22:30:06.838162Z"
+    },
+    {
+      "event": "call_tool",
+      "tool": "planner_agent.plan_responses",
+      "_ts": "2025-11-26T22:30:06.856620Z"
+    },
+    {
+      "event": "call_tool",
+      "tool": "human_approval_agent.request_approval",
+      "_ts": "2025-11-26T22:30:06.875548Z"
+    },
+    {
+      "event": "persist_memory",
+      "signals_count": 9,
+      "_ts": "2025-11-26T22:30:07.420530Z"
+    },
+    {
+      "event": "call_tool",
+      "tool": "evaluation_agent.evaluate_plan",
+      "_ts": "2025-11-26T22:30:07.465939Z"
+    },
+    {
+      "event": "finished",
+      "summary": {
+        "plan_count": 3,
+        "eval_score": 77.83
+      },
+      "_ts": "2025-11-26T22:30:07.488664Z"
+    },
+    {
+      "event": "call_tool",
+      "tool": "signal_agent.get_signals",
+      "_ts": "2025-11-26T23:39:55.616628Z"
+    },
+    {
+      "event": "call_tool",
+      "tool": "risk_agent.score_signals",
+      "_ts": "2025-11-26T23:39:55.639860Z"
+    },
+    {
+      "event": "call_tool",
+      "tool": "planner_agent.plan_responses",
+      "_ts": "2025-11-26T23:39:55.652072Z"
+    },
+    {
+      "event": "call_tool",
+      "tool": "human_approval_agent.request_approval",
+      "_ts": "2025-11-26T23:39:55.668496Z"
+    },
+    {
+      "event": "persist_memory",
+      "signals_count": 4,
+      "_ts": "2025-11-26T23:39:56.183812Z"
+    },
+    {
+      "event": "call_tool",
+      "tool": "evaluation_agent.evaluate_plan",
+      "_ts": "2025-11-26T23:39:56.196067Z"
+    },
+    {
+      "event": "finished",
+      "summary": {
+        "plan_count": 3,
+        "eval_score": 63.28
+      },
+      "_ts": "2025-11-26T23:39:56.208628Z"
+    }
+  ]
+}

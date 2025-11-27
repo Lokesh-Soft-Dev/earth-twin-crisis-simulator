@@ -1,0 +1,57 @@
+{
+  "sessions": [
+    {
+      "episode": {
+        "ts": 1764200395,
+        "signals_count": 4,
+        "top_signals": [
+          {
+            "id": "sig-1001",
+            "severity": 14.872
+          },
+          {
+            "id": "sig-1004",
+            "severity": 13.377
+          },
+          {
+            "id": "sig-1002",
+            "severity": 9.72
+          }
+        ],
+        "plan": [
+          {
+            "signal_id": "sig-1001",
+            "type": "earthquake",
+            "location": "Chile",
+            "severity": 14.872,
+            "scheduled_time": "2025-11-27T09:00",
+            "action": "Alert local emergency services; prepare shelter logistics"
+          },
+          {
+            "signal_id": "sig-1004",
+            "type": "wildfire",
+            "location": "California, USA",
+            "severity": 13.377,
+            "scheduled_time": "2025-11-27T12:00",
+            "action": "Issue evacuation advisory; alert firefighting units"
+          },
+          {
+            "signal_id": "sig-1002",
+            "type": "flood",
+            "location": "Bangladesh",
+            "severity": 9.72,
+            "scheduled_time": "2025-11-27T15:00",
+            "action": "Issue flood advisory; mobilize water rescue teams"
+          }
+        ],
+        "approval": {
+          "approved": true,
+          "review_notes": "Auto-approved in demo mode.",
+          "review_ts": 1764200396
+        },
+        "use_real_tools": false
+      },
+      "_ts": 1764200396
+    }
+  ]
+}
